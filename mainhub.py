@@ -3,6 +3,8 @@
 import tkinter as tk
 import tkinter.font as font
 from PIL import Image, ImageTk
+from recording import record
+from livefeedtest import live
 
 # tkinter for gui element
 
@@ -14,7 +16,7 @@ window.title("Smart Home Surveillance Application")
 window.iconphoto(False, tk.PhotoImage(file='icons/smart-house.png'))
 
 # setting resolution of the window or the window metrics
-window.geometry('1500x800')
+window.geometry('1400x700')
 
 # the frame bound within the window
 frame1 = tk.Frame(window)
@@ -36,7 +38,7 @@ btn1_image = Image.open('icons/webcam.png')
 btn1_image = btn1_image.resize((40, 40), Image.Resampling.LANCZOS)
 btn1_image = ImageTk.PhotoImage(btn1_image)
 
-btn2_image = Image.open('icons/webcam.png')
+btn2_image = Image.open('icons/designate.png')
 btn2_image = btn2_image.resize((40, 40), Image.Resampling.LANCZOS)
 btn2_image = ImageTk.PhotoImage(btn2_image)
 
@@ -44,11 +46,11 @@ btn5_image = Image.open('icons/exit.png')
 btn5_image = btn5_image.resize((40, 40), Image.Resampling.LANCZOS)
 btn5_image = ImageTk.PhotoImage(btn5_image)
 
-btn3_image = Image.open('icons/webcam.png')
+btn3_image = Image.open('icons/motion-sensor.png')
 btn3_image = btn3_image.resize((40, 40), Image.Resampling.LANCZOS)
 btn3_image = ImageTk.PhotoImage(btn3_image)
 
-btn6_image = Image.open('icons/webcam.png')
+btn6_image = Image.open('icons/walk.png')
 btn6_image = btn6_image.resize((40, 40), Image.Resampling.LANCZOS)
 btn6_image = ImageTk.PhotoImage(btn6_image)
 
@@ -63,7 +65,7 @@ btn7_image = ImageTk.PhotoImage(btn7_image)
 # --------------- Button Functionalities, text rendering and alignments -------------------#
 btn_font = font.Font(size=20)
 btn1 = tk.Button(frame1, text='Monitor', height=90, width=200, fg='black', bg='aqua', image=btn1_image,
-                 compound='left')
+                 compound='left', command=live)
 btn1['font'] = btn_font
 btn1.grid(row=3, pady=(20, 10))
 
@@ -79,7 +81,7 @@ btn3['font'] = btn_font
 btn3.grid(row=5, pady=(20, 10))
 
 btn4 = tk.Button(frame1, text='Recording', height=90, width=200, fg='black', bg='lime', image=btn4_image,
-                 compound='left')
+                 compound='left', command=record)
 btn4['font'] = btn_font
 btn4.grid(row=5, pady=(20, 10), column=3)
 
