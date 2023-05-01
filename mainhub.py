@@ -5,6 +5,7 @@ import tkinter.font as font
 from PIL import Image, ImageTk
 from recording import record
 from livefeedtest import live
+from motiondetection import motiondetect
 
 # tkinter for gui element
 
@@ -76,7 +77,7 @@ btn2.grid(row=3, pady=(20, 10), column=3)
 
 btn_font = font.Font(size=22)
 btn3 = tk.Button(frame1, text='Motion', height=90, width=200, fg='black', bg='lime', image=btn3_image,
-                 compound='left')
+                 compound='left', command=motiondetect)
 btn3['font'] = btn_font
 btn3.grid(row=5, pady=(20, 10))
 
