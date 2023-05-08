@@ -81,6 +81,7 @@ def designate():
         cv2.rectangle(frame1, (x1, y1), (x2, y2), (0, 0, 255), 1)
         cv2.imshow("Designated Motion", frame1)
 
+        #exit out of mode condition active on pressing esc key
         if cv2.waitKey(1) == 27:
             capture.release()
             cv2.destroyAllWindows()
