@@ -1,9 +1,20 @@
 import cv2
+import os
 from datetime import datetime
 
 
 #function for inout detection 
 def in_out_detection():
+    #create directory if not exist
+    visitors_directory='visitors'
+    if not os.path.exists(visitors_directory):
+        os.mkdir(visitors_directory)
+    in_directory='visitors/in'
+    if not os.path.exists(in_directory):
+        os.mkdir(in_directory)
+    out_directory='visitors/out'
+    if not os.path.exists(out_directory):
+        os.mkdir(out_directory)
     capture = cv2.VideoCapture(0)
     right, left = "",""
 

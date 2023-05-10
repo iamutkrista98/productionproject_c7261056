@@ -98,7 +98,7 @@ def theftdetection(frame1, frame2):
     cv2.imshow("Difference Threshold", thresh)
     cv2.imshow("Detailed", frame1)
     # beepy.beep(sound=4)
-    cv2.imwrite("stolen/" + datetime.now().strftime('%y-%m-%d-%H-%M-%S') + ".png", frame1)
+    cv2.imwrite("stolen/" + datetime.now().strftime('%y-%m-%d-%H-%M-%S') + ".png", thresh)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 

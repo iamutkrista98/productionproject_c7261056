@@ -7,7 +7,7 @@ x1, y1, x2, y2 = 0, 0, 0, 0
 
 
 # select function with arguments as event x-axis , y-axis, the flag and necessary parameters
-def select(event, x, y, flag, parameter):
+def selectregion(event, x, y, flag, parameter):
     # global variables declarations
     global x1, x2, y1, y2, selectleft, selectright
     # when the leftbutton of the mouse is put down as event then set the variable as necessary
@@ -28,16 +28,16 @@ def designate():
     capture = cv2.VideoCapture(0)
 
     cv2.namedWindow("select_region")
-    cv2.setMouseCallback("select_region", select)
+    cv2.setMouseCallback("select_region",selectregion)
 
     while True:
         _, frame = capture.read()
 
-        cv2.imshow("Designated Motion", frame)
+        cv2.imshow("Designated Area Motion", frame)
 
         if cv2.waitKey(1) == 27 or selectright == True:
             cv2.destroyAllWindows()
-            print("gone--")
+            print("out of region")
             break
 
     while True:
@@ -85,4 +85,7 @@ def designate():
         if cv2.waitKey(1) == 27:
             capture.release()
             cv2.destroyAllWindows()
+            selectleft = False
+            selectright = False
+            x1, y1, x2, y2 = 0, 0, 0, 0
             break

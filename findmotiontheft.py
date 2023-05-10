@@ -9,12 +9,12 @@ def find_motion():
     motion_detected = False
     is_start_done = False
     #capture from the defined source
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     check = []
     #wait for 5 seconds to analyze the current state and capture the frame 
-    print("waiting for 5 seconds")
-    time.sleep(5)
+    print("waiting for 2 seconds")
+    time.sleep(2)
     frame1 = cap.read()
 
     _, frm1 = cap.read()

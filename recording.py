@@ -1,12 +1,18 @@
 # importing the opencv module
 import cv2
+import os
 # importing date and time for footage writing with timestamps
 from datetime import datetime
+import winsound 
+frequency = 2500 
+duration = 2000
 
 # function to record
-
-
 def record():
+    #create directory if not exist
+    recording_directory='footages'
+    if not os.path.exists(recording_directory):
+        os.mkdir(recording_directory)
     # give the camera source for capture, here for now default source provided with index
     cap = cv2.VideoCapture(0)
     # getting the current camera interfaced frame width, height and fps
@@ -23,7 +29,7 @@ def record():
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     # configuration of outputted video footage to write to disk providing date and time with mp4 extension as file name and record in 30 fps and resolution 640*480
     out = cv2.VideoWriter(
-        f'recordings/{datetime.now().strftime("%y-%m-%d-%H-%M-%S")}.mp4', fourcc, fps, (frameWidth, frameHeight))
+        f'footages/{datetime.now().strftime("%y-%m-%d-%H-%M-%S")}.mp4', fourcc, 30, (frameWidth, frameHeight))
 
     while True:
         # reading the frames till condition is true that means continuously
@@ -40,4 +46,6 @@ def record():
         if cv2.waitKey(1) == 27:
             cap.release()
             cv2.destroyAllWindows()
+            print("Exited Recording Mode!")
+            winsound.Beep(frequency,duration)
             break
