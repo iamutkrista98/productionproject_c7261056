@@ -10,14 +10,17 @@ x1, y1, x2, y2 = 0, 0, 0, 0
 def selectregion(event, x, y, flag, parameter):
     # global variables declarations
     global x1, x2, y1, y2, selectleft, selectright
-    # when the leftbutton of the mouse is put down as event then set the variable as necessary
+    # when the leftbutton of the mouse is put down as event then set the variable as necessary and put the coordinate over at that point
     if event == cv2.EVENT_LBUTTONDOWN:
         x1, y1 = x, y
         selectleft = True
+    # when the rightbutton of the mouse is put down as event then set the variable as necessary and put the coordinate over at that point
     elif event == cv2.EVENT_RBUTTONDOWN:
         x2, y2 = x, y 
         selectright = True
         print(selectright, selectleft)
+        print("Designated Area Set!")
+        #the overall function above sets the region bounded by the point clicked on left side to the diagonal clicked over through the right mouse button
 
 # main function for the designated boundary area motion detection
 
@@ -27,17 +30,16 @@ def designate():
     global x1, x2, y1, y2, selectleft, selectright
     capture = cv2.VideoCapture(0)
 
-    cv2.namedWindow("select_region")
-    cv2.setMouseCallback("select_region",selectregion)
+    cv2.namedWindow("Designated Motion")
+    cv2.setMouseCallback("Designated Motion",selectregion)
 
     while True:
         _, frame = capture.read()
 
-        cv2.imshow("Designated Area Motion", frame)
+        cv2.imshow("Designated Motion", frame)
 
         if cv2.waitKey(1) == 27 or selectright == True:
             cv2.destroyAllWindows()
-            print("out of region")
             break
 
     while True:
@@ -72,11 +74,11 @@ def designate():
             cv2.rectangle(frame1, (x+x1, y+y1),
                           (x+w+x1, y+h+y1), (0, 255, 0), 2)
             cv2.putText(frame1, "MOTION DETECTED", (10, 80),
-                          cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 2)
+                          cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
         # else condition when contour not identified
         else:
             cv2.putText(frame1, "NO MOTION DETECTED", (10, 80),
-                        cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
         cv2.rectangle(frame1, (x1, y1), (x2, y2), (0, 0, 255), 1)
         cv2.imshow("Designated Motion", frame1)

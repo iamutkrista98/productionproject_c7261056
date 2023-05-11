@@ -118,7 +118,7 @@ def maincall():
 
     root.title("Identification")
 
-    label = tk.Label(root, text="Select an Option from below Buttons ")
+    label = tk.Label(root, text="Select an Option")
     label.grid(row=0, columnspan=2)
     label_font = font.Font(size=35, weight='bold', family='Courier-New')
     label['font'] = label_font

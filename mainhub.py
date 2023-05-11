@@ -22,18 +22,18 @@ class Surveillance:
     window.iconphoto(False, tk.PhotoImage(file='icons/smart-house.png'))
 
     # setting resolution of the window or the window metrics and opening the window at center
-    window.geometry('1400x700')
-    window.attributes('-alpha',0.9)
-    #getting the current screen resolution 
+    window.geometry('1300x700')
+    window.attributes('-alpha', 0.95)
+    # getting the current screen resolution
     screen_width = window.winfo_screenwidth()
     screen_height = window.winfo_screenheight()
-    #evaluating the center position 
-    xpos=(screen_width/2)-(1400/2)
-    ypos=(screen_height/2)-(700/2)
-    #restricting the min and max size of window and setting the geometry
+    # evaluating the center position
+    xpos = (screen_width/2)-(1400/2)
+    ypos = (screen_height/2)-(700/2)
+    # restricting the min and max size of window and setting the geometry
     window.minsize(1400, 700)
     window.maxsize(1400, 700)
-    window.geometry("+%d+%d" %(xpos,ypos))
+    window.geometry("+%d+%d" % (xpos, ypos))
 
     # the frame bound within the window
     frame1 = tk.Frame(window)
@@ -87,7 +87,7 @@ class Surveillance:
     btn1.grid(row=3, pady=(20, 10))
 
     # for designated area motion detection functionality
-    btn2 = tk.Button(frame1, text='Designation', height=90, width=200, fg='black', bg='lime', compound='left', command=designate,
+    btn2 = tk.Button(frame1, text='Designate', height=90, width=200, fg='black', bg='lime', compound='left', command=designate,
                      image=btn2_image)
     btn2['font'] = btn_font
     btn2.grid(row=3, pady=(20, 10), column=3)
@@ -99,12 +99,12 @@ class Surveillance:
     btn3['font'] = btn_font
     btn3.grid(row=5, pady=(20, 10))
     # for recording footage functionality
-    btn4 = tk.Button(frame1, text='Recording', height=90, width=200, fg='black', bg='lime', image=btn4_image,
+    btn4 = tk.Button(frame1, text='Record', height=90, width=200, fg='black', bg='lime', image=btn4_image,
                      compound='left', command=record)
     btn4['font'] = btn_font
     btn4.grid(row=5, pady=(20, 10), column=3)
     # in out detection functionality
-    btn6 = tk.Button(frame1, text='In-Out', height=90, width=200, fg='black', bg='lime', image=btn6_image,
+    btn6 = tk.Button(frame1, text='Visitor', height=90, width=200, fg='black', bg='lime', image=btn6_image,
                      compound='left', command=in_out_detection)
     btn6['font'] = btn_font
     btn6.grid(row=5, pady=(20, 10), column=2)
