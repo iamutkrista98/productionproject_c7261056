@@ -1,5 +1,5 @@
 import cv2
-
+from push_notification import push_notify
 # all necessary variables declared and initialized
 selectleft = False
 selectright = False
@@ -75,6 +75,7 @@ def designate():
                           (x+w+x1, y+h+y1), (0, 255, 0), 2)
             cv2.putText(frame1, "MOTION DETECTED", (10, 80),
                           cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            push_notify('Motion Detected in Designated Location!')
         # else condition when contour not identified
         else:
             cv2.putText(frame1, "NO MOTION DETECTED", (10, 80),

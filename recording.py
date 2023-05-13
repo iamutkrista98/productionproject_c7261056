@@ -3,6 +3,7 @@ import cv2
 import os
 # importing date and time for footage writing with timestamps
 from datetime import datetime
+from push_notification import push_notify
 import winsound 
 frequency = 2500 
 duration = 2000
@@ -46,6 +47,6 @@ def record():
         if cv2.waitKey(1) == 27:
             cap.release()
             cv2.destroyAllWindows()
-            print("Exited Recording Mode!")
+            push_notify('Recording Stopped!')
             winsound.Beep(frequency,duration)
             break

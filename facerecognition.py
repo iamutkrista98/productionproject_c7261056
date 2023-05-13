@@ -4,6 +4,7 @@ import numpy as np
 import tkinter as tk
 import tkinter.font as font
 import easygui as easygui
+from push_notification import push_notify
 
 #function to collect face based data and storing into disk based on name and id supplied 
 def data_collection():
@@ -29,6 +30,8 @@ def data_collection():
             cv2.rectangle(framecapture, (x, y), (x+w, y+h), (0, 255, 0), 2)
             roi = gray[y:y+h, x:x+w]
             cv2.imwrite(f"facesamples/{name}-{count}-{id}.jpg", roi)
+            
+
             count = count+1
             cv2.putText(framecapture, f"{count}", (20, 20),
                         cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 3)
@@ -93,6 +96,7 @@ def facerecognition():
             else:
                 cv2.putText(framecapture, "Unknown Face", (x, y),
                             cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
+                #push_notify('Unidentified visitor in frame ')
         cv2.imshow("Identification", framecapture)
 
         if cv2.waitKey(1) == 27:
