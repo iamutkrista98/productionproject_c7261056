@@ -1,7 +1,8 @@
 import cv2
-
+from event_logging import event_trigger
 #function for motion detection functionality
 def motiondetect():
+    event_trigger('Motion Detection Mode Initialized!')
     #selection of the camera source feeding
     capture = cv2.VideoCapture(0)
 
@@ -38,4 +39,6 @@ def motiondetect():
         if cv2.waitKey(1) == 27:
             capture.release()
             cv2.destroyAllWindows()
+            event_trigger('Motion Detection Mode Suspended!')
+
             break

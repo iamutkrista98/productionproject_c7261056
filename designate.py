@@ -1,5 +1,9 @@
 import cv2
 from push_notification import push_notify
+from event_logging import event_trigger
+import time
+# notification interval for sending in push notification set to 45 seconds to avoid flooding and performance issues during realtime frame capturing
+notification_interval = 15
 # all necessary variables declared and initialized
 selectleft = False
 selectright = False
@@ -16,22 +20,24 @@ def selectregion(event, x, y, flag, parameter):
         selectleft = True
     # when the rightbutton of the mouse is put down as event then set the variable as necessary and put the coordinate over at that point
     elif event == cv2.EVENT_RBUTTONDOWN:
-        x2, y2 = x, y 
+        x2, y2 = x, y
         selectright = True
         print(selectright, selectleft)
         print("Designated Area Set!")
-        #the overall function above sets the region bounded by the point clicked on left side to the diagonal clicked over through the right mouse button
+        # the overall function above sets the region bounded by the point clicked on left side to the diagonal clicked over through the right mouse button
 
 # main function for the designated boundary area motion detection
 
 
 def designate():
+    event_trigger('Designated Area Motion Detection Mode Initiated!')
     # global variable assignment
     global x1, x2, y1, y2, selectleft, selectright
     capture = cv2.VideoCapture(0)
 
     cv2.namedWindow("Designated Motion")
-    cv2.setMouseCallback("Designated Motion",selectregion)
+    cv2.setMouseCallback("Designated Motion", selectregion)
+    last_notification_time = time.time()
 
     while True:
         _, frame = capture.read()
@@ -74,8 +80,14 @@ def designate():
             cv2.rectangle(frame1, (x+x1, y+y1),
                           (x+w+x1, y+h+y1), (0, 255, 0), 2)
             cv2.putText(frame1, "MOTION DETECTED", (10, 80),
-                          cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-            push_notify('Motion Detected in Designated Location!')
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            
+            current_time = time.time()
+            if current_time-last_notification_time >= notification_interval:
+                push_notify('Motion Detected in Designated Location! Alert!')
+                last_notification_time = current_time
+            else:
+                print('')
         # else condition when contour not identified
         else:
             cv2.putText(frame1, "NO MOTION DETECTED", (10, 80),
@@ -84,11 +96,13 @@ def designate():
         cv2.rectangle(frame1, (x1, y1), (x2, y2), (0, 0, 255), 1)
         cv2.imshow("Designated Motion", frame1)
 
-        #exit out of mode condition active on pressing esc key
+        # exit out of mode condition active on pressing esc key
         if cv2.waitKey(1) == 27:
             capture.release()
             cv2.destroyAllWindows()
             selectleft = False
             selectright = False
             x1, y1, x2, y2 = 0, 0, 0, 0
+            event_trigger('Designated Area Motion Detection Session Ended!')
+
             break

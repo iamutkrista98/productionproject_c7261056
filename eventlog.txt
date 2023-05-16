@@ -1,0 +1,50 @@
+Recording Functionality Started! at time 2023-05-16 19:33:06.044701
+Recording footage saved to disk! at time 2023-05-16 19:33:06.548230
+Recording Stopped! at time 2023-05-16 19:33:09.937572
+Designated Area Motion Detection Mode Initiated! at time 2023-05-16 19:33:41.269600
+Designated Area Motion Detection Mode Initiated! at time 2023-05-16 19:34:01.301409
+Designated Area Motion Detection Session Ended! at time 2023-05-16 19:34:07.323501
+Motion Detection Mode Initialized! at time 2023-05-16 21:22:01.976427
+Motion Detection Mode Suspended! at time 2023-05-16 21:22:24.033371
+Face Identification Mode Initialized! at time 2023-05-16 21:22:39.845967
+Face Identification Mode Initialized! at time 2023-05-16 21:22:41.105713
+Face Identification Mode Exited! at time 2023-05-16 21:22:58.661958
+Designated Area Motion Detection Mode Initiated! at time 2023-05-16 21:23:02.600845
+Designated Area Motion Detection Mode Initiated! at time 2023-05-16 21:26:49.283278
+Designated Area Motion Detection Session Ended! at time 2023-05-16 21:27:27.619304
+Recording Functionality Started! at time 2023-05-16 21:29:28.411388
+Recording footage saved to disk! at time 2023-05-16 21:29:28.761356
+Recording Stopped! at time 2023-05-16 21:29:39.668568
+Face Identification Mode Initialized! at time 2023-05-16 21:31:29.008895
+Face Identification Mode Initialized! at time 2023-05-16 21:31:30.810178
+Face Identification Mode Initialized! at time 2023-05-16 21:34:04.486246
+New Face Data Enrolled and Training Model Updated! at time 2023-05-16 21:34:35.405162
+Face Identification Mode Initialized! at time 2023-05-16 21:34:41.576829
+Face Identification Mode Exited! at time 2023-05-16 21:35:12.875781
+Face Identification Mode Initialized! at time 2023-05-16 21:36:29.810446
+Face Identification Mode Initialized! at time 2023-05-16 21:40:43.802970
+Face Identification Mode Initialized! at time 2023-05-16 21:41:27.471927
+Face Identification Mode Initialized! at time 2023-05-16 21:50:39.724385
+Face Identification Mode Initialized! at time 2023-05-16 21:51:58.882714
+New Face Data Enrolled and Training Model Updated! at time 2023-05-16 21:52:13.195956
+Face Identification Mode Initialized! at time 2023-05-16 21:52:44.483633
+Face Identification Mode Initialized! at time 2023-05-16 21:53:25.821179
+Face Identification Mode Initialized! at time 2023-05-16 21:54:13.241609
+Face Identification Mode Initialized! at time 2023-05-16 21:54:36.174790
+Face Identification Mode Exited! at time 2023-05-16 21:54:41.459137
+Face Identification Mode Initialized! at time 2023-05-16 21:54:54.855902
+Face Identification Mode Initialized! at time 2023-05-16 21:54:57.398864
+Face Identification Mode Initialized! at time 2023-05-16 21:55:00.746262
+Face Identification Mode Initialized! at time 2023-05-16 21:58:02.788962
+Face Identification Mode Initialized! at time 2023-05-16 21:59:36.040906
+Face Identification Mode Initialized! at time 2023-05-16 22:00:48.280030
+New Face Data Enrolled and Training Model Updated! at time 2023-05-16 22:00:59.797951
+Face Identification Mode Initialized! at time 2023-05-16 22:01:06.623029
+Face Identification Mode Exited! at time 2023-05-16 22:01:13.625311
+Face Identification Mode Initialized! at time 2023-05-16 22:06:46.841196
+Face Identification Mode Initialized! at time 2023-05-16 22:07:15.651096
+Face Identification Mode Exited! at time 2023-05-16 22:08:10.799055
+Motion Detection Mode Initialized! at time 2023-05-16 22:10:13.526753
+Motion Detection Mode Suspended! at time 2023-05-16 22:10:33.535598
+Designated Area Motion Detection Mode Initiated! at time 2023-05-16 22:12:30.461435
+Designated Area Motion Detection Session Ended! at time 2023-05-16 22:12:51.830549

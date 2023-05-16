@@ -82,3 +82,15 @@ Notification Successfully Delivered
  Unidentified visitor in frame  at time 2023-05-13 22:22:04.534016
 Notification Successfully Delivered
  Unidentified visitor in frame  at time 2023-05-13 22:25:37.018180
+Notification Successfully Delivered
+ Unidentified visitor in frame  at time 2023-05-13 22:53:03.080777
+Notification Successfully Delivered
+ Recording Stopped! at time 2023-05-16 19:33:09.937572
+Notification Successfully Delivered
+ Motion Detected in Designated Location! Alert! at time 2023-05-16 21:27:05.502949
+Notification Successfully Delivered
+ Motion Detected in Designated Location! Alert! at time 2023-05-16 21:27:21.060494
+Notification Successfully Delivered
+ Unidentified visitor in frame  at time 2023-05-16 22:08:04.132086
+Notification Successfully Delivered
+ Motion Detected in Designated Location! Alert! at time 2023-05-16 22:12:46.108340

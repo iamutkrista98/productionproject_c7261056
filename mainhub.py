@@ -52,35 +52,35 @@ class Surveillance:
 
     # icon dimension manipulation for different buttons made available
     btn1_image = Image.open('icons/webcam.png')
-    btn1_image = btn1_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn1_image = btn1_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn1_image = ImageTk.PhotoImage(btn1_image)
     # designate button designing element
     btn2_image = Image.open('icons/designate.png')
-    btn2_image = btn2_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn2_image = btn2_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn2_image = ImageTk.PhotoImage(btn2_image)
     # exit button designing element
     btn5_image = Image.open('icons/exit.png')
-    btn5_image = btn5_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn5_image = btn5_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn5_image = ImageTk.PhotoImage(btn5_image)
     # motion detection design element
     btn3_image = Image.open('icons/motion-sensor.png')
-    btn3_image = btn3_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn3_image = btn3_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn3_image = ImageTk.PhotoImage(btn3_image)
     # in out detection design element
     btn6_image = Image.open('icons/walk.png')
-    btn6_image = btn6_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn6_image = btn6_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn6_image = ImageTk.PhotoImage(btn6_image)
     # recording button design element
     btn4_image = Image.open('icons/recording.png')
-    btn4_image = btn4_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn4_image = btn4_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn4_image = ImageTk.PhotoImage(btn4_image)
     # facial recognition or identification functionality button design element
     btn7_image = Image.open('icons/face-recognition.png')
-    btn7_image = btn7_image.resize((40, 40), Image.Resampling.LANCZOS)
+    btn7_image = btn7_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn7_image = ImageTk.PhotoImage(btn7_image)
 
     # --------------- Button Functionalities, text rendering and alignments -------------------#
-    btn_font = font.Font(size=20)
+    btn_font = font.Font(size=20,family='Arial')
     btn1 = tk.Button(frame1, text='Monitor', height=90, width=200, fg='black', bg='aqua', image=btn1_image,
                      compound='left', command=find_motion)
     btn1['font'] = btn_font

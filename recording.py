@@ -4,12 +4,14 @@ import os
 # importing date and time for footage writing with timestamps
 from datetime import datetime
 from push_notification import push_notify
+from event_logging import event_trigger
 import winsound 
 frequency = 2500 
 duration = 2000
 
 # function to record
 def record():
+    event_trigger('Recording Functionality Started!')
     #create directory if not exist
     recording_directory='footages'
     if not os.path.exists(recording_directory):
@@ -31,6 +33,7 @@ def record():
     # configuration of outputted video footage to write to disk providing date and time with mp4 extension as file name and record in 30 fps and resolution 640*480
     out = cv2.VideoWriter(
         f'footages/{datetime.now().strftime("%y-%m-%d-%H-%M-%S")}.mp4', fourcc, 30, (frameWidth, frameHeight))
+    event_trigger('Recording footage saved to disk!')
 
     while True:
         # reading the frames till condition is true that means continuously
@@ -47,6 +50,6 @@ def record():
         if cv2.waitKey(1) == 27:
             cap.release()
             cv2.destroyAllWindows()
-            push_notify('Recording Stopped!')
-            winsound.Beep(frequency,duration)
+            event_trigger('Recording Stopped!')
+            #winsound.Beep(frequency,duration)
             break
