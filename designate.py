@@ -1,9 +1,10 @@
+# importing of all necessary libraries and functions
 import cv2
 from push_notification import push_notify
 from event_logging import event_trigger
 import time
 # notification interval for sending in push notification set to 45 seconds to avoid flooding and performance issues during realtime frame capturing
-notification_interval = 15
+notification_interval = 20
 # all necessary variables declared and initialized
 selectleft = False
 selectright = False
@@ -36,6 +37,7 @@ def designate():
     capture = cv2.VideoCapture(0)
 
     cv2.namedWindow("Designated Motion")
+    # call the function to select region on mouse event
     cv2.setMouseCallback("Designated Motion", selectregion)
     last_notification_time = time.time()
 
@@ -66,7 +68,7 @@ def designate():
 
         # introduce blur for processing
         difference = cv2.blur(difference, (5, 5))
-        # threshold introduction
+        # threshold introduction for removing noise
         _, thresh = cv2.threshold(difference, 25, 255, cv2.THRESH_BINARY)
 
         # identifying of contours or fine edges within the processed image
@@ -81,11 +83,10 @@ def designate():
                           (x+w+x1, y+h+y1), (0, 255, 0), 2)
             cv2.putText(frame1, "MOTION DETECTED", (10, 80),
                         cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-            
+
             current_time = time.time()
             if current_time-last_notification_time >= notification_interval:
                 push_notify('Motion Detected in Designated Location! Alert!')
-                last_notification_time = current_time
             else:
                 print('')
         # else condition when contour not identified

@@ -1,96 +1,51 @@
 Notification Successfully Delivered
- Recording Stopped! at time 2023-05-13 22:04:15.537397Notification Successfully Delivered
- Recording Stopped! at time 2023-05-13 22:05:42.490051Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:14.309024
+Motion Detected in Designated Location! Alert! at time 2023-05-18 20:20:33.383898
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:14.859172
+Motion Detected in Designated Location! Alert! at time 2023-05-18 20:20:35.623097
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:15.384173
+Unidentified visitor in frame  at time 2023-05-18 20:40:39.083066
+Notification Delivery Failed for Unidentified visitor in frame  at time 2023-05-18 20:42:04.823471
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:15.872993
+Unidentified visitor in frame  at time 2023-05-23 21:12:10.969716
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:16.348894
+Unidentified visitor in frame  at time 2023-05-23 21:12:33.437547
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:16.831618
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:45.558860
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:17.329930
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:47.613386
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:17.920002
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:49.560516
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:18.434669
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:54.818572
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:18.934586
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:56.826667
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:19.477390
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:57:58.947271
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:19.985085
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:01.022209
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:20.506509
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:02.975612
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:21.009567
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:04.905676
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:21.505226
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:07.077906
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:22.000027
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:09.038705
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:22.475310
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:15.118782
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:22.955764
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:17.324645
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:23.421559
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:19.395745
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:23.923299
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:21.427729
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:24.420947
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:23.442557
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:24.918401
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:25.605555
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:25.435992
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:27.567849
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:25.925698
+Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:30.072540
 Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:26.446310
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:14:26.935433
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:57.081511
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:57.655164
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:58.131651
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:58.599801
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:59.112972
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:21:59.585726
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:00.098160
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:00.573966
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:01.612261
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:02.245835
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:02.788245
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:03.260629
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:03.756114
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:22:04.534016
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:25:37.018180
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-13 22:53:03.080777
-Notification Successfully Delivered
- Recording Stopped! at time 2023-05-16 19:33:09.937572
-Notification Successfully Delivered
- Motion Detected in Designated Location! Alert! at time 2023-05-16 21:27:05.502949
-Notification Successfully Delivered
- Motion Detected in Designated Location! Alert! at time 2023-05-16 21:27:21.060494
-Notification Successfully Delivered
- Unidentified visitor in frame  at time 2023-05-16 22:08:04.132086
-Notification Successfully Delivered
- Motion Detected in Designated Location! Alert! at time 2023-05-16 22:12:46.108340
+Unidentified visitor in frame  at time 2023-05-23 23:23:39.666309

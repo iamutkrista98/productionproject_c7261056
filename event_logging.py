@@ -5,7 +5,8 @@ from datetime import datetime
 
 
 def event_trigger(eventinfo):
+    # the current date and time
     now = datetime.now()
-
+    # writing to the text file in append mode
     with open('eventlog.txt', 'a') as file:
         file.write(eventinfo+' at time '+str(now)+'\n')

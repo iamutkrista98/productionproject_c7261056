@@ -9,6 +9,7 @@ from designate import designate
 from findmotiontheft import find_motion
 from inoutdetection import in_out_detection
 from facerecognition import maincall
+#from theftdemo import theftdemo
 
 
 class Surveillance:
@@ -71,7 +72,7 @@ class Surveillance:
     btn6_image = btn6_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn6_image = ImageTk.PhotoImage(btn6_image)
     # recording button design element
-    btn4_image = Image.open('icons/recording.png')
+    btn4_image = Image.open('icons/record.png')
     btn4_image = btn4_image.resize((50, 50), Image.Resampling.LANCZOS)
     btn4_image = ImageTk.PhotoImage(btn4_image)
     # facial recognition or identification functionality button design element
@@ -80,7 +81,7 @@ class Surveillance:
     btn7_image = ImageTk.PhotoImage(btn7_image)
 
     # --------------- Button Functionalities, text rendering and alignments -------------------#
-    btn_font = font.Font(size=20,family='Arial')
+    btn_font = font.Font(size=20, family='Arial')
     btn1 = tk.Button(frame1, text='Monitor', height=90, width=200, fg='black', bg='aqua', image=btn1_image,
                      compound='left', command=find_motion)
     btn1['font'] = btn_font

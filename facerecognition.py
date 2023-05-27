@@ -10,7 +10,7 @@ from event_logging import event_trigger
 import time
 import ctypes
 # notification interval for sending in push notification set to 45 seconds to avoid flooding and performance issues during realtime frame capturing
-notification_interval = 45
+notification_interval = 20
 
 # function to collect face based data and storing into disk based on name and id supplied
 
@@ -174,7 +174,7 @@ def maincall():
     label_font = font.Font(size=35, weight='bold', family='Courier-New')
     label['font'] = label_font
 
-    btn_font = font.Font(size=25)
+    btn_font = font.Font(size=22)
 
     button1 = tk.Button(root, text="Train New", bg='lime', fg='black',
                         command=data_collection, height=2, width=20)
