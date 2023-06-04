@@ -127,7 +127,7 @@ def facerecognition():
             label = recognize.predict(roi)
 
             if label[1] < 100:
-                cv2.putText(framecapture, f"{labelslist[str(label[0])]}+{int(label[1])}",
+                cv2.putText(framecapture, f"{labelslist[str(label[0])]}",
                             (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
             else:
                 # if the visitor identified within the frame is not recognized based on the data collected prior during the training phase

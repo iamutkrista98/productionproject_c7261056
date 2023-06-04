@@ -211,3 +211,51 @@ Face Identification Mode Initialized! at time 2023-06-04 14:10:06.622791
 Face Identification Mode Exited! at time 2023-06-04 14:10:13.202503
 Designated Area Motion Detection Mode Initiated! at time 2023-06-04 14:10:18.831094
 Designated Area Motion Detection Session Ended! at time 2023-06-04 14:10:23.027156
+Face Identification Mode Initialized! at time 2023-06-04 14:39:28.766601
+Face Identification Mode Initialized! at time 2023-06-04 14:39:33.793037
+Face Identification Mode Initialized! at time 2023-06-04 14:41:06.465617
+Face Identification Mode Initialized! at time 2023-06-04 14:41:08.721356
+Face Identification Mode Exited! at time 2023-06-04 14:41:34.916389
+Recording Functionality Started! at time 2023-06-04 14:41:53.211737
+Recording footage saved to disk! at time 2023-06-04 14:41:53.641212
+Recording Stopped! at time 2023-06-04 14:41:59.926706
+Monitoring Functionality Started! at time 2023-06-04 14:42:30.167863
+Monitoring Functionality Session Ended! at time 2023-06-04 14:42:30.292626
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 14:44:01.484532
+Designated Area Motion Detection Session Ended! at time 2023-06-04 14:44:15.580076
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 14:44:29.390832
+Designated Area Motion Detection Session Ended! at time 2023-06-04 14:44:56.830059
+Face Identification Mode Initialized! at time 2023-06-04 14:48:17.366193
+Face Identification Mode Initialized! at time 2023-06-04 14:48:18.625701
+Face Identification Mode Exited! at time 2023-06-04 14:48:25.725693
+Face Identification Mode Initialized! at time 2023-06-04 14:49:30.922136
+Face Identification Mode Initialized! at time 2023-06-04 14:49:31.726546
+Face Identification Mode Exited! at time 2023-06-04 14:49:39.011329
+Motion Detection Mode Initialized! at time 2023-06-04 22:08:53.248348
+Motion Detection Mode Suspended! at time 2023-06-04 22:10:26.121962
+Motion Detection Mode Initialized! at time 2023-06-04 22:10:28.195481
+Motion Detection Mode Suspended! at time 2023-06-04 22:10:32.726120
+Motion Detection Mode Initialized! at time 2023-06-04 22:11:42.833731
+Motion Detection Mode Suspended! at time 2023-06-04 22:11:55.497144
+Recording Functionality Started! at time 2023-06-04 22:12:27.144034
+Recording footage saved to disk! at time 2023-06-04 22:12:27.566119
+Recording Stopped! at time 2023-06-04 22:12:41.245998
+Face Identification Mode Initialized! at time 2023-06-04 22:12:45.810299
+Face Identification Mode Initialized! at time 2023-06-04 22:12:46.649558
+Face Identification Mode Exited! at time 2023-06-04 22:12:50.109475
+Monitoring Functionality Started! at time 2023-06-04 22:13:14.768685
+Monitoring Functionality Session Ended! at time 2023-06-04 22:13:14.849173
+Monitoring Functionality Started! at time 2023-06-04 22:13:31.430384
+Monitoring Functionality Session Ended! at time 2023-06-04 22:13:31.516906
+Face Identification Mode Initialized! at time 2023-06-04 22:13:50.308307
+Face Identification Mode Initialized! at time 2023-06-04 22:13:51.116746
+Face Identification Mode Exited! at time 2023-06-04 22:14:03.659355
+Face Identification Mode Initialized! at time 2023-06-04 22:15:21.115253
+Face Identification Mode Exited! at time 2023-06-04 22:15:47.273925
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 22:15:58.889012
+Designated Area Motion Detection Session Ended! at time 2023-06-04 22:16:54.109745
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 22:26:57.567333
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 22:27:27.054838
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 22:28:54.008340
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 22:30:17.515657
+Designated Area Motion Detection Session Ended! at time 2023-06-04 22:30:56.311718
