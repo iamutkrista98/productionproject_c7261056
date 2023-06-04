@@ -49,3 +49,21 @@ Notification Successfully Delivered
 Motion Detected in Designated Location! Alert! at time 2023-05-23 22:58:30.072540
 Notification Successfully Delivered
 Unidentified visitor in frame  at time 2023-05-23 23:23:39.666309
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:22.517115
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:24.796757
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:26.867705
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:28.883531
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:31.976471
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:33.988467
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:35.989512
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-05-27 22:51:37.931066
+Notification Successfully Delivered
+Unidentified visitor in frame  at time 2023-05-27 22:53:03.342877

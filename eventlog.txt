@@ -201,3 +201,13 @@ Face Identification Mode Initialized! at time 2023-05-27 22:43:11.564918
 Face Identification Mode Exited! at time 2023-05-27 22:43:26.419884
 Monitoring Functionality Started! at time 2023-05-27 22:43:45.706082
 Monitoring Functionality Session Ended! at time 2023-05-27 22:43:45.785919
+Designated Area Motion Detection Mode Initiated! at time 2023-05-27 22:51:02.074255
+Designated Area Motion Detection Session Ended! at time 2023-05-27 22:51:46.452769
+Face Identification Mode Initialized! at time 2023-05-27 22:52:39.973979
+Face Identification Mode Initialized! at time 2023-05-27 22:52:41.333853
+Face Identification Mode Exited! at time 2023-05-27 22:53:08.637711
+Face Identification Mode Initialized! at time 2023-06-04 14:10:02.151998
+Face Identification Mode Initialized! at time 2023-06-04 14:10:06.622791
+Face Identification Mode Exited! at time 2023-06-04 14:10:13.202503
+Designated Area Motion Detection Mode Initiated! at time 2023-06-04 14:10:18.831094
+Designated Area Motion Detection Session Ended! at time 2023-06-04 14:10:23.027156
