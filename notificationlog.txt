@@ -139,3 +139,5 @@ Notification Successfully Delivered
 Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:24.219003
 Notification Successfully Delivered
 Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:26.437164
+Notification Successfully Delivered
+Unidentified visitor in frame  at time 2023-06-06 00:07:15.552104
