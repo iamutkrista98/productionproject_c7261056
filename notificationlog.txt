@@ -105,3 +105,37 @@ Notification Successfully Delivered
 Motion Detected in Designated Location! Alert! at time 2023-06-04 22:30:49.794446
 Notification Successfully Delivered
 Motion Detected in Designated Location! Alert! at time 2023-06-04 22:30:54.348453
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:20:30.254409
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:20:32.377193
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:20:34.331548
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:20:36.217519
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:37:21.343947
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 10:37:23.398031
+Notification Successfully Delivered
+Unidentified visitor in frame  at time 2023-06-05 10:42:57.726203
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 13:26:49.447204
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 13:26:52.035712
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 13:27:33.930323
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 13:27:36.177269
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:14.630116
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:17.183805
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:19.571161
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:21.861006
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:24.219003
+Notification Successfully Delivered
+Motion Detected in Designated Location! Alert! at time 2023-06-05 16:00:26.437164

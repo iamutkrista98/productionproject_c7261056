@@ -153,15 +153,15 @@ def maincall():
     event_trigger('Face Identification Mode Initialized!')
     ctypes.windll.shcore.SetProcessDpiAwareness(1)
     root = tk.Tk()
-    root.geometry("400x200")
-    root.minsize(400, 200)
-    root.maxsize(400, 200)
+    root.geometry("470x200")
+    root.minsize(470, 200)
+    root.maxsize(470, 200)
 
     # getting the current screen resolution
     screen_width = root.winfo_screenwidth()
     screen_height = root.winfo_screenheight()
     # evaluating the center position
-    xpos = (screen_width/2)-(400/2)
+    xpos = (screen_width/2)-(470/2)
     ypos = (screen_height/2)-(200/2)
 
     root.geometry("+%d+%d" % (xpos, ypos))
